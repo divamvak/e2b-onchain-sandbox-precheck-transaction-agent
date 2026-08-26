@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Environments
+.venv
+.env
+
+# uv
+# (uv.lock IS committed on purpose — it pins the resolved dependency versions)
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

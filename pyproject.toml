@@ -1,0 +1,12 @@
+[project]
+name = "onchain-preflight-sandbox"
+version = "0.1.0"
+description = "Educational project: sandboxed on-chain pre-flight tx simulation. Phase 1 (local): Anvil fork + debug_traceCall. Phase 2 (later): wrap in an E2B sandbox."
+requires-python = ">=3.12"
+dependencies = [
+    "web3>=7.0.0",
+    "python-dotenv>=1.2.2",
+    "e2b>=2.45.1",
+    "langgraph>=1.2.1",
+    "langchain-anthropic>=1.4.3",
+]
